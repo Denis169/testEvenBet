@@ -1,4 +1,4 @@
-import './style.css'
+import './styles.less'
 
 export const Logo =  () => {
     return (
