@@ -1,0 +1,65 @@
+.name_and_rating {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.player {
+    margin: 28px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.rating {
+	display: inline-block;
+	font-size: 0;
+}
+.rating span {
+	padding: 0;
+	font-size: 8px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating > span:before {
+	content: '★';
+}
+.rating > span.active {
+	color: gold;
+}
+
+.balans {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px 0 0;
+    background-color: #373352;
+    width: 112px;
+    height: 26px;
+    border-radius: 24px;
+}
+
+.eye {
+    width: 24px;
+    height: 26px;
+    border-radius: 24px;
+    padding: 0 4px;
+    background-color: #00BB40;
+}
+
+.money {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+    color: #ffffff;
+}
