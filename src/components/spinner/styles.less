@@ -1,4 +1,5 @@
-.lds-roller {
+.lds-roller,
+.lds-spin {
     display: inline-block;
     position: relative;
     margin-top: 16px;
@@ -7,6 +8,10 @@
 }
 
 .lds-roller div {
+    transform-origin: 25px 25px;
+}
+
+.lds-spin div {
     animation: lds-roller 0.63s linear infinite;
     transform-origin: 25px 25px;
 }

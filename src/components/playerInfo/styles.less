@@ -42,10 +42,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 8px 0 0;
-    background-color: #373352;
     width: 112px;
     height: 26px;
     border-radius: 24px;
+}
+
+.visible {
+    background-color: #373352;
+}
+
+.unvisible {
+    background-color: #00BB40;
 }
 
 .eye {
@@ -54,6 +61,11 @@
     border-radius: 24px;
     padding: 0 4px;
     background-color: #00BB40;
+}
+
+.eye:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 4px #00BB40;
 }
 
 .money {
